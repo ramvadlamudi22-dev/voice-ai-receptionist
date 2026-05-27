@@ -1,0 +1,12 @@
+[
+  {
+    "question": "What services do you offer?",
+    "answer_type": "approved_faq",
+    "answer": "We can help with appointments, basic questions, and callback requests."
+  },
+  {
+    "question": "Can I book a time tomorrow?",
+    "answer_type": "needs_calendar_check",
+    "answer": "Collect preferred time and send for review."
+  }
+]
