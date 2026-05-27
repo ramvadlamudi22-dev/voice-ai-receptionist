@@ -1,0 +1,7 @@
+{
+  "customer": "Example Customer",
+  "request_type": "appointment_request",
+  "preferred_time": "2026-06-01 10:00 AM",
+  "status": "needs_review",
+  "summary": "Customer wants a callback before confirmation."
+}
