@@ -1,0 +1,9 @@
+{
+  "customer_name": "Example Customer",
+  "contact": "+91-00000-00000",
+  "request_type": "appointment_request",
+  "preferred_date": "2026-06-01",
+  "preferred_time": "10:00 AM",
+  "summary": "Customer wants a callback before confirmation.",
+  "status": "needs_review"
+}
