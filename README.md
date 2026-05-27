@@ -1,14 +1,20 @@
 # Voice AI Receptionist
 
-A prototype repository for a Voice AI receptionist and customer intake workflow.
+Prototype scaffold for a Voice AI receptionist and customer intake workflow.
 
 ## Status
 
-MVP planning and documentation scaffold.
+MVP planning, documentation, sample intake data, prompt notes, and a local demo script are included.
 
-## Goal
+## Why this exists
 
-Create a simple AI-assisted front-desk workflow for small businesses.
+Small businesses often repeat the same front-desk tasks: collecting customer details, answering simple questions, routing requests, and preparing summaries. This repository explores a simple AI-assisted workflow for those tasks.
+
+## Core Flow
+
+```text
+Customer Request -> Intake -> FAQ / Routing -> Review -> Owner Summary
+```
 
 ## What it can support
 
@@ -17,46 +23,49 @@ Create a simple AI-assisted front-desk workflow for small businesses.
 - appointment request collection
 - callback request collection
 - support triage notes
-- daily owner summary
+- owner summary reports
 
-## Workflow
+## Human Review Policy
 
-```text
-Customer Message -> Intake -> FAQ / Routing -> Appointment Request -> Owner Summary
-```
+This project is designed as an assistant workflow. Important actions should be reviewed or confirmed by a human operator.
 
 ## Repository Structure
 
 ```text
 .
 ├── README.md
+├── TODO.md
 ├── docs/
 │   ├── call-flow.md
-│   └── implementation-plan.md
+│   ├── architecture.md
+│   └── roadmap.md
 ├── prompts/
 │   └── receptionist_prompt.md
 ├── sample/
-│   └── intake_form.json
-├── src/
-│   └── main.py
-├── .env.example
-└── requirements.txt
+│   ├── intake_form.json
+│   └── faq_examples.json
+├── reports/
+│   └── sample_summary.md
+└── src/
+    └── main.py
 ```
-
-## Human Review Policy
-
-This project is designed as an assistant workflow. Important actions should be reviewed or confirmed by a human operator.
 
 ## Roadmap
 
 - [x] Add project overview
 - [x] Add call flow notes
 - [x] Add sample intake schema
+- [x] Add FAQ examples
 - [x] Add receptionist prompt
+- [x] Add sample owner summary
 - [ ] Add voice provider integration notes
-- [ ] Add scheduling integration
-- [ ] Add reporting template
-- [ ] Build a small demo
+- [ ] Add scheduling integration notes
+- [ ] Add screenshots
+- [ ] Add demo walkthrough
+
+## Skills Demonstrated
+
+AI Agents, AI Automation, Chatbots, Workflow Automation, Customer Support, Python
 
 ## Links
 
